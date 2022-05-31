@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         addEvents();
     }
     private void addEvents() {
-        txtValueRate.setText(ratingBar.getRating()+"/5");
+        txtValueRate.setText(ratingBar.getRating()+"/4");
         ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
